@@ -22,6 +22,8 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
+		0A065D85245078CF00D21B79 /* Pods_NMSSH.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CFC506A08A2AE80B0294821 /* Pods_NMSSH.framework */; };
+		0A065D86245078CF00D21B79 /* Pods_NMSSH.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8CFC506A08A2AE80B0294821 /* Pods_NMSSH.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		186CC9721B69117D00F674C4 /* NMSSH.h in Headers */ = {isa = PBXBuildFile; fileRef = 186CC9711B69117D00F674C4 /* NMSSH.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		186CC9731B69123900F674C4 /* libssh2_publickey.h in Headers */ = {isa = PBXBuildFile; fileRef = 18A0968117D6AA7B008B76FB /* libssh2_publickey.h */; };
 		186CC9741B69123900F674C4 /* NMSSH+Protected.h in Headers */ = {isa = PBXBuildFile; fileRef = 18B4FE82188C8195004E05FF /* NMSSH+Protected.h */; };
@@ -37,9 +39,7 @@
 		186CC97E1B69125500F674C4 /* NMSSHSessionDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 18A0967A17D6AA64008B76FB /* NMSSHSessionDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		186CC97F1B69125500F674C4 /* socket_helper.h in Headers */ = {isa = PBXBuildFile; fileRef = 18A0966517D6AA3D008B76FB /* socket_helper.h */; };
 		186CC9801B69125500F674C4 /* NMSSHLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 18F1A2D018158D78000635AB /* NMSSHLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		186CC9811B69127600F674C4 /* libcrypto.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 18A096D017D6AA7B008B76FB /* libcrypto.a */; };
 		186CC9821B69127600F674C4 /* libssh2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 18A096D117D6AA7B008B76FB /* libssh2.a */; };
-		186CC9831B69127600F674C4 /* libssl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 18A096D217D6AA7B008B76FB /* libssl.a */; };
 		186CC9841B69142600F674C4 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 18A0972417D6AAA8008B76FB /* libz.dylib */; };
 		186CC9851B69144800F674C4 /* NMSSHChannel.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A0966E17D6AA51008B76FB /* NMSSHChannel.m */; };
 		186CC9861B69144800F674C4 /* NMSFTP.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A0966B17D6AA51008B76FB /* NMSFTP.m */; };
@@ -63,9 +63,7 @@
 		18A096D317D6AA7B008B76FB /* libssh2.h in Headers */ = {isa = PBXBuildFile; fileRef = 18A0968017D6AA7B008B76FB /* libssh2.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		18A096D417D6AA7B008B76FB /* libssh2_publickey.h in Headers */ = {isa = PBXBuildFile; fileRef = 18A0968117D6AA7B008B76FB /* libssh2_publickey.h */; };
 		18A096D517D6AA7B008B76FB /* libssh2_sftp.h in Headers */ = {isa = PBXBuildFile; fileRef = 18A0968217D6AA7B008B76FB /* libssh2_sftp.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		18A0972117D6AA7B008B76FB /* libcrypto.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 18A096D017D6AA7B008B76FB /* libcrypto.a */; };
 		18A0972217D6AA7C008B76FB /* libssh2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 18A096D117D6AA7B008B76FB /* libssh2.a */; };
-		18A0972317D6AA7C008B76FB /* libssl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 18A096D217D6AA7B008B76FB /* libssl.a */; };
 		18A197C4191FA77A0004D88E /* NMSSHConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 18A197C0191FA77A0004D88E /* NMSSHConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		18A197C5191FA77A0004D88E /* NMSSHConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A197C1191FA77A0004D88E /* NMSSHConfig.m */; };
 		18A197C6191FA77A0004D88E /* NMSSHHostConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 18A197C2191FA77A0004D88E /* NMSSHHostConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -73,11 +71,29 @@
 		18B4FE83188C8774004E05FF /* NMSSH+Protected.h in Headers */ = {isa = PBXBuildFile; fileRef = 18B4FE82188C8195004E05FF /* NMSSH+Protected.h */; };
 		18F1A2D218158D78000635AB /* NMSSHLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 18F1A2D018158D78000635AB /* NMSSHLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		18F1A2D318158D78000635AB /* NMSSHLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F1A2D118158D78000635AB /* NMSSHLogger.m */; };
+		2E83B9862BE1CE3E79CA8B5B /* Pods_NMSSH_Static.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DAE1345B8A47AF426B3CE4B /* Pods_NMSSH_Static.framework */; };
+		A709F4383FEEFDB3A44C6C80 /* Pods_NMSSH.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CFC506A08A2AE80B0294821 /* Pods_NMSSH.framework */; };
 		E46F9E21188AC7010056E5DB /* NMSFTPFile.h in Headers */ = {isa = PBXBuildFile; fileRef = E46F9E1F188AC7010056E5DB /* NMSFTPFile.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E46F9E22188AC7010056E5DB /* NMSFTPFile.m in Sources */ = {isa = PBXBuildFile; fileRef = E46F9E20188AC7010056E5DB /* NMSFTPFile.m */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		0A065D87245078CF00D21B79 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				0A065D86245078CF00D21B79 /* Pods_NMSSH.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		08F4528A60559433ABBE8D71 /* Pods-NMSSH Static.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NMSSH Static.debug.xcconfig"; path = "Target Support Files/Pods-NMSSH Static/Pods-NMSSH Static.debug.xcconfig"; sourceTree = "<group>"; };
+		090E77AD8A21EC28F02ACAA3 /* Pods-NMSSH.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NMSSH.release.xcconfig"; path = "Target Support Files/Pods-NMSSH/Pods-NMSSH.release.xcconfig"; sourceTree = "<group>"; };
 		186CC9581B69110500F674C4 /* NMSSH.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NMSSH.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		186CC95B1B69110500F674C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		186CC9711B69117D00F674C4 /* NMSSH.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NMSSH.h; path = "NMSSH-iOS/NMSSH.h"; sourceTree = SOURCE_ROOT; };
@@ -109,6 +125,10 @@
 		18B4FE82188C8195004E05FF /* NMSSH+Protected.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NMSSH+Protected.h"; sourceTree = "<group>"; };
 		18F1A2D018158D78000635AB /* NMSSHLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NMSSHLogger.h; sourceTree = "<group>"; };
 		18F1A2D118158D78000635AB /* NMSSHLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NMSSHLogger.m; sourceTree = "<group>"; };
+		404BEA71731957587196E741 /* Pods-NMSSH.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NMSSH.debug.xcconfig"; path = "Target Support Files/Pods-NMSSH/Pods-NMSSH.debug.xcconfig"; sourceTree = "<group>"; };
+		6DAE1345B8A47AF426B3CE4B /* Pods_NMSSH_Static.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NMSSH_Static.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CFC506A08A2AE80B0294821 /* Pods_NMSSH.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NMSSH.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		91BCC50A3C8C725B5CF9FB43 /* Pods-NMSSH Static.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NMSSH Static.release.xcconfig"; path = "Target Support Files/Pods-NMSSH Static/Pods-NMSSH Static.release.xcconfig"; sourceTree = "<group>"; };
 		E46F9E1F188AC7010056E5DB /* NMSFTPFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NMSFTPFile.h; sourceTree = "<group>"; };
 		E46F9E20188AC7010056E5DB /* NMSFTPFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NMSFTPFile.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -119,9 +139,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				186CC9841B69142600F674C4 /* libz.dylib in Frameworks */,
-				186CC9811B69127600F674C4 /* libcrypto.a in Frameworks */,
 				186CC9821B69127600F674C4 /* libssh2.a in Frameworks */,
-				186CC9831B69127600F674C4 /* libssl.a in Frameworks */,
+				A709F4383FEEFDB3A44C6C80 /* Pods_NMSSH.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -129,9 +148,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18A0972117D6AA7B008B76FB /* libcrypto.a in Frameworks */,
 				18A0972217D6AA7C008B76FB /* libssh2.a in Frameworks */,
-				18A0972317D6AA7C008B76FB /* libssl.a in Frameworks */,
+				2E83B9862BE1CE3E79CA8B5B /* Pods_NMSSH_Static.framework in Frameworks */,
+				0A065D85245078CF00D21B79 /* Pods_NMSSH.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -162,6 +181,7 @@
 				186CC9591B69110500F674C4 /* NMSSH */,
 				18A0962D17D6A85F008B76FB /* Frameworks */,
 				18A0962C17D6A85F008B76FB /* Products */,
+				77525A5C092EBA5F0F23EE66 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -179,6 +199,8 @@
 			children = (
 				18A0972417D6AAA8008B76FB /* libz.dylib */,
 				18A0963017D6A85F008B76FB /* Foundation.framework */,
+				8CFC506A08A2AE80B0294821 /* Pods_NMSSH.framework */,
+				6DAE1345B8A47AF426B3CE4B /* Pods_NMSSH_Static.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -274,6 +296,17 @@
 			path = lib;
 			sourceTree = "<group>";
 		};
+		77525A5C092EBA5F0F23EE66 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				404BEA71731957587196E741 /* Pods-NMSSH.debug.xcconfig */,
+				090E77AD8A21EC28F02ACAA3 /* Pods-NMSSH.release.xcconfig */,
+				08F4528A60559433ABBE8D71 /* Pods-NMSSH Static.debug.xcconfig */,
+				91BCC50A3C8C725B5CF9FB43 /* Pods-NMSSH Static.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -328,6 +361,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 186CC96B1B69110500F674C4 /* Build configuration list for PBXNativeTarget "NMSSH" */;
 			buildPhases = (
+				6647742A119E1A4A0DF8E25D /* [CP] Check Pods Manifest.lock */,
 				186CC9531B69110500F674C4 /* Sources */,
 				186CC9541B69110500F674C4 /* Frameworks */,
 				186CC9551B69110500F674C4 /* Headers */,
@@ -346,10 +380,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 18A0965B17D6A8C4008B76FB /* Build configuration list for PBXNativeTarget "NMSSH Static" */;
 			buildPhases = (
+				42B6B2ED005E328978F4B30C /* [CP] Check Pods Manifest.lock */,
 				18A0964B17D6A8C4008B76FB /* Sources */,
 				18A0964C17D6A8C4008B76FB /* Frameworks */,
 				18A0964D17D6A8C4008B76FB /* Resources */,
 				18A0965C17D6A956008B76FB /* Headers */,
+				0A065D87245078CF00D21B79 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -380,6 +416,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = 18A0962217D6A85F008B76FB;
@@ -440,6 +477,50 @@
 			shellPath = /bin/sh;
 			shellScript = "# Sets the target folders and the final framework product.\nFMK_NAME=\"NMSSH\"\nFMK_VERSION=\"A\"\nTARGET=\"NMSSH Static\"\n\n# Install dir will be the final output to the framework.\n# The following line create it in the root folder of the current project.\nINSTALL_DIR=\"${SRCROOT}/Products/${FMK_NAME}.framework\"\n\n# Working dir will be deleted after the framework creation.\nWRK_DIR=\"build\"\nDEVICE_DIR=\"${WRK_DIR}/Release-iphoneos/${TARGET}.framework\"\nSIMULATOR_DIR=\"${WRK_DIR}/Release-iphonesimulator/${TARGET}.framework\"\n\nset -e\n\n# Cleaning the oldest.\nif [ -d \"${INSTALL_DIR}\" ]\nthen\nrm -rf \"${INSTALL_DIR}\"\nfi\n\n# Creates and renews the final product folder.\nmkdir -p \"${INSTALL_DIR}\"\nmkdir -p \"${INSTALL_DIR}/Versions\"\nmkdir -p \"${INSTALL_DIR}/Versions/${FMK_VERSION}\"\nmkdir -p \"${INSTALL_DIR}/Versions/${FMK_VERSION}/Resources\"\nmkdir -p \"${INSTALL_DIR}/Versions/${FMK_VERSION}/Headers\"\n\n# Creates the internal links.\n# It MUST uses relative path, otherwise will not work when the folder is copied/moved.\nln -s \"${FMK_VERSION}\" \"${INSTALL_DIR}/Versions/Current\"\nln -s \"Versions/Current/Headers\" \"${INSTALL_DIR}/Headers\"\nln -s \"Versions/Current/Resources\" \"${INSTALL_DIR}/Resources\"\nln -s \"Versions/Current/${FMK_NAME}\" \"${INSTALL_DIR}/${FMK_NAME}\"\n\n# Copies the headers and resources files to the final product folder.\ncp -R \"${DEVICE_DIR}/Headers/\" \"${INSTALL_DIR}/Versions/${FMK_VERSION}/Headers/\"\ncp -R \"${DEVICE_DIR}/\" \"${INSTALL_DIR}/Versions/${FMK_VERSION}/Resources/\"\n\n# Removes the binary and header from the resources folder.\nrm -r \"${INSTALL_DIR}/Versions/${FMK_VERSION}/Resources/Headers\" \"${INSTALL_DIR}/Versions/${FMK_VERSION}/Resources/${TARGET}\"\n\n# Uses the Lipo Tool to merge both binary files into one Universal final product.\nlipo -create \"${DEVICE_DIR}/${TARGET}\" \"${SIMULATOR_DIR}/${TARGET}\" -output \"${INSTALL_DIR}/Versions/${FMK_VERSION}/${FMK_NAME}\"\nrm -r \"${WRK_DIR}\"\n\nset +e\n";
 		};
+		42B6B2ED005E328978F4B30C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NMSSH Static-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6647742A119E1A4A0DF8E25D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NMSSH-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -478,6 +559,7 @@
 /* Begin XCBuildConfiguration section */
 		186CC96C1B69110500F674C4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 404BEA71731957587196E741 /* Pods-NMSSH.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
@@ -491,6 +573,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -521,6 +604,7 @@
 		};
 		186CC96D1B69110500F674C4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 090E77AD8A21EC28F02ACAA3 /* Pods-NMSSH.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
@@ -535,6 +619,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -653,6 +738,7 @@
 		};
 		18A0965917D6A8C4008B76FB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 08F4528A60559433ABBE8D71 /* Pods-NMSSH Static.debug.xcconfig */;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
 				DEAD_CODE_STRIPPING = NO;
@@ -678,6 +764,7 @@
 		};
 		18A0965A17D6A8C4008B76FB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 91BCC50A3C8C725B5CF9FB43 /* Pods-NMSSH Static.release.xcconfig */;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
 				DEAD_CODE_STRIPPING = NO;

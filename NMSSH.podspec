@@ -32,4 +32,6 @@ Pod::Spec.new do |spec|
     "OTHER_LDFLAGS" => "-ObjC",
   }
 
+  spec.dependencies = 'OpenSSL-Universal'
+
 end
